@@ -65,3 +65,5 @@ D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\obj\Debug\T
 D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\obj\Debug\TreinoApi.csproj.CopyComplete
 D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\obj\Debug\TreinoApi.dll
 D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\obj\Debug\TreinoApi.pdb
+D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\bin\App_Data\ApiXml.mdf
+D:\Treinamento\Android\3º Etapa\Api com XML\Api\TreinoApi\TreinoApi\bin\App_Data\ApiXml_log.ldf
