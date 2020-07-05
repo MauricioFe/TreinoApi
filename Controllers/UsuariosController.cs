@@ -37,7 +37,7 @@ namespace TreinoApi.Controllers
             return usuarios;
         }
 
-        public void Post(int id, string nome, int idade)
+        public void Post(string nome, int idade)
         {
             if (!string.IsNullOrEmpty(nome) && idade != 0)
             {

@@ -10,7 +10,9 @@ namespace TreinoApi
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
+            // Web API routes
             // Web API routes
             config.MapHttpAttributeRoutes();
 
@@ -19,7 +21,7 @@ namespace TreinoApi
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
+            
             
         }
     }
